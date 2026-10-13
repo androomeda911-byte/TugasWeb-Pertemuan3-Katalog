@@ -1,0 +1,249 @@
+/* ==========================================================
+   TUGAS RUTIN 3
+   KATALOG PRODUK RESPONSIF
+
+   Framework : Bootstrap 5.3
+   CSS       : Custom CSS
+   Pendekatan: Mobile-first
+   ========================================================== */
+
+
+/* ==========================================================
+   1. STYLE DASAR
+   ========================================================== */
+
+body {
+
+    background-color: #ffffff;
+
+    color: #212529;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+}
+
+
+/* ==========================================================
+   2. HERO SECTION
+   ========================================================== */
+
+.hero-section {
+
+    background:
+        linear-gradient(
+            135deg,
+            #f8f9fa 0%,
+            #e9f7ff 100%
+        );
+
+}
+
+
+/*
+   Gambar hero responsive
+*/
+
+.hero-section img {
+
+    width: 100%;
+
+    max-height: 360px;
+
+    object-fit: cover;
+
+}
+
+
+
+/* ==========================================================
+   3. PRODUCT CARD
+   ========================================================== */
+
+.product-card {
+
+    border: none;
+
+    border-radius: 1rem;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
+}
+
+
+/*
+   Efek ketika mouse diarahkan ke card
+*/
+
+.product-card:hover {
+
+    transform: translateY(-4px);
+
+}
+
+
+
+/* ==========================================================
+   4. GAMBAR PRODUK
+   ========================================================== */
+
+.product-image {
+
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+
+}
+
+
+
+/* ==========================================================
+   5. HARGA PRODUK
+   ========================================================== */
+
+.price {
+
+    font-size: 1.15rem;
+
+    font-weight: 700;
+
+    color: #0d6efd;
+
+}
+
+
+
+/* ==========================================================
+   6. CLAMP TYPOGRAPHY
+   ========================================================== */
+
+/*
+   Judul maksimal 2 baris
+*/
+
+.text-clamp-2 {
+
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+
+    -webkit-line-clamp: 2;
+
+    line-clamp: 2;
+
+    overflow: hidden;
+
+}
+
+
+/*
+   Deskripsi maksimal 3 baris
+*/
+
+.text-clamp-3 {
+
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+
+    -webkit-line-clamp: 3;
+
+    line-clamp: 3;
+
+    overflow: hidden;
+
+}
+
+
+
+/* ==========================================================
+   7. FOOTER
+   ========================================================== */
+
+footer {
+
+    min-height: 150px;
+
+}
+
+
+
+/* ==========================================================
+   8. BREAKPOINT 1 - TABLET
+   Minimal breakpoint pertama
+   768px
+   ========================================================== */
+
+@media (min-width: 768px) {
+
+
+    /*
+       Hero lebih tinggi pada tablet
+    */
+
+    .hero-section {
+
+        min-height: 430px;
+
+        display: flex;
+
+        align-items: center;
+
+    }
+
+
+    /*
+       Ukuran gambar produk
+    */
+
+    .product-image {
+
+        height: 200px;
+
+    }
+
+}
+
+
+
+/* ==========================================================
+   9. BREAKPOINT 2 - DESKTOP
+   992px
+   ========================================================== */
+
+@media (min-width: 992px) {
+
+
+    .product-image {
+
+        height: 210px;
+
+    }
+
+}
+
+
+
+/* ==========================================================
+   10. BREAKPOINT 3 - LARGE DESKTOP
+   1200px
+   ========================================================== */
+
+@media (min-width: 1200px) {
+
+
+    .product-image {
+
+        height: 190px;
+
+    }
+
+}

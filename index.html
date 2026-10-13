@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Katalog produk responsif menggunakan Bootstrap 5.3">
+
+    <title>TechGear Store - Katalog Produk Responsif</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+         ===================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+
+                <i class="bi bi-bag-heart-fill text-info"></i>
+
+                TechGear
+
+            </a>
+
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu"
+                aria-expanded="false"
+                aria-label="Buka menu navigasi">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active" href="#beranda">
+                            Beranda
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="#produk">
+                            Produk
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="#tentang">
+                            Tentang
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="#kontak">
+                            Kontak
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <header id="beranda" class="hero-section">
+
+        <div class="container py-5">
+
+            <div class="row align-items-center g-4">
+
+                <!-- Bagian teks -->
+                <div class="col-12 col-lg-7">
+
+                    <span class="badge bg-info text-dark mb-3">
+
+                        KATALOG PRODUK RESPONSIF
+
+                    </span>
+
+
+                    <h1 class="display-5 fw-bold mb-3">
+
+                        Temukan Perangkat Favoritmu
+
+                    </h1>
+
+
+                    <p class="lead text-secondary mb-4">
+
+                        Katalog sederhana dengan tampilan
+                        mobile-first yang tetap nyaman digunakan
+                        pada tablet dan desktop.
+
+                    </p>
+
+
+                    <a href="#produk"
+                        class="btn btn-info btn-lg fw-semibold">
+
+                        Lihat Produk
+
+                        <i class="bi bi-arrow-down"></i>
+
+                    </a>
+
+                </div>
+
+
+                <!-- Gambar hero -->
+                <div class="col-12 col-lg-5">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1000&q=80"
+                        class="img-fluid rounded-4 shadow"
+                        alt="Laptop dan perangkat teknologi">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main id="produk" class="py-5">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <p class="text-info fw-bold mb-1">
+
+                    KOLEKSI TERBARU
+
+                </p>
+
+
+                <h2 class="fw-bold">
+
+                    Daftar Produk
+
+                </h2>
+
+
+                <p class="text-secondary mb-0">
+
+                    Pilih produk sesuai kebutuhanmu.
+
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+
+                    <article class="card product-card h-100 shadow-sm">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top product-image"
+                            alt="Laptop premium"
+                            loading="lazy">
+
+
+                        <div class="card-body d-flex flex-column">
+
+                            <span class="badge bg-primary-subtle text-primary align-self-start mb-2">
+
+                                Laptop
+
+                            </span>
+
+
+                            <h3 class="h5 card-title text-clamp-2">
+
+                                Axioo Pongoo 725 v2
+
+                            </h3>
+
+
+                            <p class="card-text text-secondary text-clamp-3">
+
+                                Laptop high spec untuk kuliah,
+                                pemrograman, desain, dan pekerjaan
+                                sehari-hari.
+
+                            </p>
+
+
+                            <div class="mt-auto">
+
+                                <p class="price mb-3">
+
+                                    Rp12.499.000
+
+                                </p>
+
+
+                                <button
+                                    class="btn btn-outline-primary w-100"
+                                    type="button">
+
+                                    <i class="bi bi-cart-plus"></i>
+
+                                    Tambah
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+
+                    <article class="card product-card h-100 shadow-sm">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top product-image"
+                            alt="Headphone wireless"
+                            loading="lazy">
+
+
+                        <div class="card-body d-flex flex-column">
+
+                            <span class="badge bg-success-subtle text-success align-self-start mb-2">
+
+                                Audio
+
+                            </span>
+
+
+                            <h3 class="h5 card-title text-clamp-2">
+
+                                JBL Wireless Headphone X1
+
+                            </h3>
+
+
+                            <p class="card-text text-secondary text-clamp-3">
+
+                                Headphone nirkabel dengan suara jernih
+                                dan baterai tahan lama untuk belajar
+                                dan hiburan.
+
+                            </p>
+
+
+                            <div class="mt-auto">
+
+                                <p class="price mb-3">
+
+                                    Rp899.000
+
+                                </p>
+
+
+                                <button
+                                    class="btn btn-outline-primary w-100"
+                                    type="button">
+
+                                    <i class="bi bi-cart-plus"></i>
+
+                                    Tambah
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+
+                    <article class="card product-card h-100 shadow-sm">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top product-image"
+                            alt="Keyboard mekanikal"
+                            loading="lazy">
+
+
+                        <div class="card-body d-flex flex-column">
+
+                            <span class="badge bg-warning-subtle text-warning-emphasis align-self-start mb-2">
+
+                                Aksesoris
+
+                            </span>
+
+
+                            <h3 class="h5 card-title text-clamp-2">
+
+                                Rexus Mechanical Keyboard K68
+
+                            </h3>
+
+
+                            <p class="card-text text-secondary text-clamp-3">
+
+                                Keyboard mekanikal nyaman untuk
+                                mengetik kode, mengerjakan tugas,
+                                dan bermain game.
+
+                            </p>
+
+
+                            <div class="mt-auto">
+
+                                <p class="price mb-3">
+
+                                    Rp549.000
+
+                                </p>
+
+
+                                <button
+                                    class="btn btn-outline-primary w-100"
+                                    type="button">
+
+                                    <i class="bi bi-cart-plus"></i>
+
+                                    Tambah
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+
+                    <article class="card product-card h-100 shadow-sm">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top product-image"
+                            alt="Smartwatch"
+                            loading="lazy">
+
+
+                        <div class="card-body d-flex flex-column">
+
+                            <span class="badge bg-danger-subtle text-danger align-self-start mb-2">
+
+                                Wearable
+
+                            </span>
+
+
+                            <h3 class="h5 card-title text-clamp-2">
+
+                                Xiaomi Smartwatch S3
+
+                            </h3>
+
+
+                            <p class="card-text text-secondary text-clamp-3">
+
+                                Smartwatch bergaya minimalis dengan
+                                fitur notifikasi dan pemantauan
+                                aktivitas.
+
+                            </p>
+
+
+                            <div class="mt-auto">
+
+                                <p class="price mb-3">
+
+                                    Rp1.299.000
+
+                                </p>
+
+
+                                <button
+                                    class="btn btn-outline-primary w-100"
+                                    type="button">
+
+                                    <i class="bi bi-cart-plus"></i>
+
+                                    Tambah
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+
+                    <article class="card product-card h-100 shadow-sm">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top product-image"
+                            alt="Earbuds wireless"
+                            loading="lazy">
+
+
+                        <div class="card-body d-flex flex-column">
+
+                            <span class="badge bg-success-subtle text-success align-self-start mb-2">
+
+                                Audio
+
+                            </span>
+
+
+                            <h3 class="h5 card-title text-clamp-2">
+
+                                True Wireless Buds
+
+                            </h3>
+
+
+                            <p class="card-text text-secondary text-clamp-3">
+
+                                Earbuds ringkas dengan charging case
+                                dan desain yang praktis dibawa
+                                ke kampus.
+
+                            </p>
+
+
+                            <div class="mt-auto">
+
+                                <p class="price mb-3">
+
+                                    Rp549.000
+
+                                </p>
+
+
+                                <button
+                                    class="btn btn-outline-primary w-100"
+                                    type="button">
+
+                                    <i class="bi bi-cart-plus"></i>
+
+                                    Tambah
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+
+                    <article class="card product-card h-100 shadow-sm">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top product-image"
+                            alt="Komputer desktop"
+                            loading="lazy">
+
+
+                        <div class="card-body d-flex flex-column">
+
+                            <span class="badge bg-primary-subtle text-primary align-self-start mb-2">
+
+                                PC
+
+                            </span>
+
+
+                            <h3 class="h5 card-title text-clamp-2">
+
+                                Desktop Creator R5
+
+                            </h3>
+
+
+                            <p class="card-text text-secondary text-clamp-3">
+
+                                Komputer desktop bertenaga untuk
+                                pemrograman, multimedia, dan kebutuhan
+                                produktivitas.
+
+                            </p>
+
+
+                            <div class="mt-auto">
+
+                                <p class="price mb-3">
+
+                                    Rp15.999.000
+
+                                </p>
+
+
+                                <button
+                                    class="btn btn-outline-primary w-100"
+                                    type="button">
+
+                                    <i class="bi bi-cart-plus"></i>
+
+                                    Tambah
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+
+                    <article class="card product-card h-100 shadow-sm">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top product-image"
+                            alt="Speaker bluetooth"
+                            loading="lazy">
+
+
+                        <div class="card-body d-flex flex-column">
+
+                            <span class="badge bg-info-subtle text-info-emphasis align-self-start mb-2">
+
+                                Speaker
+
+                            </span>
+
+
+                            <h3 class="h5 card-title text-clamp-2">
+
+                                JBL Bluetooth Speaker Mini
+
+                            </h3>
+
+
+                            <p class="card-text text-secondary text-clamp-3">
+
+                                Speaker portable dengan ukuran
+                                ringkas untuk menemani aktivitas
+                                di rumah maupun kampus.
+
+                            </p>
+
+
+                            <div class="mt-auto">
+
+                                <p class="price mb-3">
+
+                                    Rp399.000
+
+                                </p>
+
+
+                                <button
+                                    class="btn btn-outline-primary w-100"
+                                    type="button">
+
+                                    <i class="bi bi-cart-plus"></i>
+
+                                    Tambah
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+
+                    <article class="card product-card h-100 shadow-sm">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top product-image"
+                            alt="Smartphone"
+                            loading="lazy">
+
+
+                        <div class="card-body d-flex flex-column">
+
+                            <span class="badge bg-secondary-subtle text-secondary align-self-start mb-2">
+
+                                Smartphone
+
+                            </span>
+
+
+                            <h3 class="h5 card-title text-clamp-2">
+
+                                POCO F6 5G
+
+                            </h3>
+
+
+                            <p class="card-text text-secondary text-clamp-3">
+
+                                Smartphone 5G dengan layar luas
+                                dan performa cepat untuk komunikasi
+                                serta hiburan.
+
+                            </p>
+
+
+                            <div class="mt-auto">
+
+                                <p class="price mb-3">
+
+                                    Rp5.799.000
+
+                                </p>
+
+
+                                <button
+                                    class="btn btn-outline-primary w-100"
+                                    type="button">
+
+                                    <i class="bi bi-cart-plus"></i>
+
+                                    Tambah
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <section id="tentang" class="bg-light py-5">
+
+        <div class="container">
+
+            <div class="row g-4 align-items-center">
+
+                <div class="col-12 col-lg-6">
+
+                    <h2 class="fw-bold">
+
+                        Tentang TechGear
+
+                    </h2>
+
+
+                    <p class="text-secondary">
+
+                        TechGear adalah contoh halaman katalog
+                        produk yang dibuat untuk memenuhi tugas rutin
+                        Pemrograman Web tentang desain responsif.
+
+                    </p>
+
+
+                    <p class="text-secondary mb-0">
+
+                        Halaman menggunakan Bootstrap 5.3 dengan
+                        pendekatan mobile-first, grid responsif,
+                        card produk, responsive image, navbar collapse,
+                        typography clamp(), dan footer.
+
+                    </p>
+
+                </div>
+
+
+                <div class="col-12 col-lg-6">
+
+                    <div class="p-4 rounded-4 bg-white shadow-sm">
+
+
+                        <div class="d-flex gap-3 mb-3">
+
+                            <i class="bi bi-phone fs-2 text-primary"></i>
+
+                            <div>
+
+                                <h3 class="h6 fw-bold mb-1">
+
+                                    Mobile-first
+
+                                </h3>
+
+                                <p class="small text-secondary mb-0">
+
+                                    Nyaman digunakan dari layar kecil.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="d-flex gap-3 mb-3">
+
+                            <i class="bi bi-grid-3x3-gap fs-2 text-primary"></i>
+
+                            <div>
+
+                                <h3 class="h6 fw-bold mb-1">
+
+                                    Grid Responsif
+
+                                </h3>
+
+                                <p class="small text-secondary mb-0">
+
+                                    1, 2, 3, hingga 4 kolom
+                                    sesuai ukuran layar.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="d-flex gap-3">
+
+                            <i class="bi bi-image fs-2 text-primary"></i>
+
+                            <div>
+
+                                <h3 class="h6 fw-bold mb-1">
+
+                                    Responsive Images
+
+                                </h3>
+
+                                <p class="small text-secondary mb-0">
+
+                                    Gambar menyesuaikan lebar card.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <footer id="kontak" class="bg-dark text-white py-4">
+
+        <div class="container">
+
+            <div class="row g-3 align-items-center">
+
+                <div class="col-12 col-md-6">
+
+                    <h2 class="h5 fw-bold mb-1">
+
+                        TechGear Store
+
+                    </h2>
+
+
+                    <p class="small text-white-50 mb-0">
+
+                        Tugas Rutin 3 - Pemrograman Web
+
+                    </p>
+
+                </div>
+
+
+                <div class="col-12 col-md-6 text-md-end">
+
+                    <p class="small mb-1">
+
+                        <i class="bi bi-envelope"></i>
+
+                        techgear@example.com
+
+                    </p>
+
+
+                    <p class="small text-white-50 mb-0">
+
+                        © 2026 TechGear. All rights reserved.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
