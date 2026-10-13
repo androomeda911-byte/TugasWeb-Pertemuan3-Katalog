@@ -1,12 +1,8 @@
-/* ==========================================================
    TUGAS RUTIN 3
    JAVASCRIPT KATALOG PRODUK RESPONSIF
-   ========================================================== */
 
 
-/*
    Menunggu sampai seluruh HTML selesai dimuat
-*/
 
 document.addEventListener("DOMContentLoaded", () => {
 
